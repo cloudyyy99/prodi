@@ -16,13 +16,12 @@ import ScrollToTop from "@/components/ScrollToTop";
 function App() {
   return (
     <>
-      <Toaster />     
-      <BrowserRouter>
+      <Toaster />
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Navbar />
         <ScrollToTop />
         <AccessibilityPanel />
         <Routes>
-          
           <Route index element={<Home />} />
           <Route path="/TeknikInformatika" element={<TeknikInformatika />} />
           <Route path="/VisiMisi" element={<VisiMisi />} />
