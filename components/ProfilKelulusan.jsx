@@ -1,0 +1,1 @@
+export default function ProfilKelulusan() { return <div>Profil Kelulusan</div>; }

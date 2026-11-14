@@ -1,0 +1,1 @@
+export default function VisiMisi() { return <div>Visi dan Misi</div>; }

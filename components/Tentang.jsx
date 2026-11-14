@@ -1,0 +1,1 @@
+export default function Tentang() { return <div>Tentang Informatika</div>; }
