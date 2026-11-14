@@ -1,5 +1,5 @@
 export const Footer = () => {
-  const iconPath = "/img/icons/";
+  const iconPath = `${import.meta.env.BASE_URL}img/icons/`;
   const iconClass = "w-4 h-4";
 
   return (
@@ -8,7 +8,7 @@ export const Footer = () => {
         {/* Kontak */}
         <div>
           <div className=" flex items-center gap-2 mb-4">
-            <img src="/img/icons/itp.png" alt="Logo ITP" className="w-10 h-10" />
+            <img src={`${iconPath}itp.png`} alt="Logo ITP" className="w-10 h-10" />
             <h2 className="text-lg font-bold">Institut Teknologi Padang</h2>
           </div>
           <div className="space-y-3 text-sm">
@@ -34,7 +34,7 @@ export const Footer = () => {
         {/* Media Sosial */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <img src="/img/icons/socials.png" alt="Media Sosial" className="w-10 h-10" />
+            <img src={`${iconPath}socials.png`} alt="Media Sosial" className="w-10 h-10" />
             <h2 className="text-lg font-bold">Media Sosial</h2>
           </div>
           <ul className="space-y-3 text-sm">
@@ -79,7 +79,7 @@ export const Footer = () => {
         <div>
           <iframe
             title="Lokasi ITP"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31914.300299636976!2d100.35769551778183!3d-0.9345969119580504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8a526503fa9%3A0x7485c0496ad30308!2sInstitut%20Teknologi%20Padang!5e0!3m2!1sen!2sus!4v1750185208357!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31914.300299636976!2d100.35769551778183!3d-0.9345969119580504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8a5265"
             width="100%"
             height="235"
             style={{ border: 0 }}
